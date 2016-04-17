@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html data-ng-app="NoteWrangler">
+  <head>
+    <meta charset="utf-8">
+    <title>Note Wrangler</title>
+    <link rel="stylesheet" href="assets/styles/bootstrap.css"></link>
+    <link rel="stylesheet" href="assets/styles/bootstrap-theme.css"></link>
+  </head>
+  <body>
+    <h1>Note Wrangler</h1>
+    <div ng-view class="container-fluid"></div>
+  </body>
+
+  <!-- vender -->
+  <script src="assets/javascript/vender/jquery-2.2.3.js"></script>
+  <script src="assets/javascript/vender/angular.js"></script>
+  <script src="assets/javascript/vender/angular-route.js"></script>
+  <script src="assets/javascript/vender/angular-resource.js"></script>
+
+  <!-- App -->
+  <script src="assets/javascript/app.js"></script>
+  <script src="assets/javascript/routes.js"></script>
+
+  <!-- Directives -->
+  <!-- Controllers -->
+  <script src="assets/javascript/controllers/noteIndexController.js"></script>
+  <script src="assets/javascript/controllers/noteShowController.js"></script>
+  <script src="assets/javascript/controllers/noteEditController.js"></script>
+  <script src="assets/javascript/controllers/noteCreateController.js"></script>
+
+  <!-- Services -->
+  <script src="assets/javascript/services/note.js"></script>
+
+</html>
